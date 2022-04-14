@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center; color: bisque; }
+    .attribution a { color: hsl(228, 76%, 54%); }
   </style>
 </head>
 <body class="body1">
@@ -37,90 +37,36 @@
   </div>
   </div>
     </div>
-<div class="calculator-ans">
-  <input type="text">
-</div>
-<div class="calculator-key-pad">
- <div class="calculator-key-pad-col">
-  <button>7</button>
-  <button>8</button>
-  <button>9</button>
-  <button class="del-btn">DEL</button>
-  <button>4</button>
-  <button>5</button>
-  <button>6</button>
-  <button>+</button>
-  <button>1</button>
-  <button>2</button>
-  <button>3</button>
-  <button>-</button>
-  <button>.</button>
-  <button>0</button>
-  <button>/</button>
-  <button>x</button>
-  <button class="reset-btn"><b>RESET</b></button>
-  <button class="equal-to-btn"><b>=</b></button>
- </div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  <!-- <div class="row1">
-    <div class="col">
-  <button class="calculator-keys-col">7</button>
-  <button class="calculator-keys-col">4</button>
-  <button class="calculator-keys-col">1</button>
-  <button class="calculator-keys-col">.</button>
-  </div>
-  <div class="co2">
-  <button class="calculator-keys-col">8</button>
-  <button class="calculator-keys-col">5</button>
-  <button class="calculator-keys-col">2</button>
-  <button class="calculator-keys-col">0</button>
-  </div>
-  <div class="col">
-  <button class="calculator-keys-col">9</button>
-  <button class="calculator-keys-col">6</button>
-  <button class="calculator-keys-col">3</button>
-  <button class="calculator-keys-col">/</button>
-  </div>
-  <div class="col">
-  <button class="calculator-del-key">DEL</button>
-  <button class="calculator-keys-col">+</button>
-  <button class="calculator-keys-col">-</button>
-  <button class="calculator-keys-col">x</button>
-  </div>
-  <div class="col2">
-<button class="reset">RESET</button>
-    </div>
-    <div class="col2">
-  <button class="equal-to">=</button>
-    </div>
-    </div>
-</div> -->
-</section>
-<!-- <script src="./index.js"></script> -->
-  
+    <div class="center">
+      <form name="forms">
+        <input type="text" id="display" name="display" disabled>
+        <div class="buttons">
+          <input type="button" id="seven" value="7">
+          <input type="button" id="eight" value="8">
+          <input type="button" id="nine" value="9">
+          <input type="button" id="clear" value="DEL"><br>
+          <input type="button" id="four" value="4">
+          <input type="button" id="five" value="5">
+          <input type="button" id="six" value="6">
+          <input type="button" id="multi" value="*"><br>
+          <input type="button" id="one" value="1">
+          <input type="button" id="two" value="2">
+          <input type="button" id="three" value="3">
+          <input type="button" id="subs" value="-"><br>
+          <input type="button" id="dot" value=".">
+          <input type="button" id="zero" value="0">
+          <input type="button" id="add" value="+">
+          <input type="button" id="divide" value="/"><br>
+          <input type="button" id="clear-all" value="RESET">
+          <input type="button" id="equal" value="=">
+        </div>
+      </form>
+      </div><br><br>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Fawziyyah Muhammad</a>.
+    Coded by  <a href="https://fawziyyah01muhammad.github.io/Avosuahi/">Fawziyyah Muhammad</a>.
   </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
